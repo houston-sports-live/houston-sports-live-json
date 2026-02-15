@@ -1,93 +1,58 @@
 {
   "pageTitle": "Houston Sports Live",
-  "styles": {
-    "primaryColor": "#ff4500",
-    "secondaryColor": "#1c1c1c",
-    "textColor": "#222",
-    "fontFamily": "Arial, sans-serif"
-  },
   "tabs": [
     {
       "title": "Live Video",
-      "paragraphs": ["Watch live high school games and events"],
-      "collapsibles": [
+      "videos": [
         {
-          "title": "Basketball Live",
-          "content": "<iframe src='https://www.youtube.com/embed/live_stream?channel=CHANNEL_ID' width='100%' height='315' frameborder='0' allowfullscreen></iframe>"
-        },
-        {
-          "title": "Football Live",
-          "content": "<iframe src='https://www.youtube.com/embed/live_stream?channel=CHANNEL_ID' width='100%' height='315' frameborder='0' allowfullscreen></iframe>"
+          "label": "Basketball Live",
+          "url": "https://www.youtube.com/embed/live_stream?channel=CHANNEL_ID"
         }
       ]
     },
     {
       "title": "Archived Games",
-      "paragraphs": ["Replay past games and highlights"],
-      "collapsibles": [
+      "videos": [
         {
-          "title": "Conroe vs CFISD - Basketball",
-          "content": "<iframe src='https://www.youtube.com/embed/ARCHIVE_VIDEO_ID' width='100%' height='315' frameborder='0' allowfullscreen></iframe>"
-        },
-        {
-          "title": "Conroe vs CFISD - Football",
-          "content": "<iframe src='https://www.youtube.com/embed/ARCHIVE_VIDEO_ID2' width='100%' height='315' frameborder='0' allowfullscreen></iframe>"
+          "label": "Conroe vs CFISD",
+          "url": "https://www.youtube.com/embed/ARCHIVE_VIDEO_ID"
         }
       ]
     },
     {
       "title": "Live Radio",
-      "paragraphs": ["Listen to Houston Sports Live 24/7"],
-      "collapsibles": [
+      "audios": [
         {
-          "title": "Live Radio Stream",
-          "content": "<audio controls autoplay><source src='https://yourstreamingurl.com/live.mp3' type='audio/mpeg'>Your browser does not support audio.</audio>"
+          "label": "24/7 Radio",
+          "url": "https://yourstreamingurl.com/live.mp3"
         }
       ]
     },
     {
       "title": "Schools / Districts",
-      "paragraphs": ["Select your school or district to personalize content and notifications"],
-      "collapsibles": [
+      "schools": [
         {
-          "title": "Conroe High School",
-          "content": "Personalized schedules, videos, blogs, and notifications for Conroe HS"
+          "name": "Conroe High School",
+          "description": "Schedules, videos, blogs, notifications for Conroe HS"
         },
         {
-          "title": "CFISD",
-          "content": "Personalized schedules, videos, blogs, and notifications for CFISD"
+          "name": "CFISD",
+          "description": "Schedules, videos, blogs, notifications for CFISD"
         }
       ]
     },
     {
       "title": "Blog / News",
-      "paragraphs": ["High school sports news, recaps, and highlights"],
-      "collapsibles": [
+      "blogs": [
         {
+          "school": "Conroe High School",
           "title": "Conroe HS Highlights",
-          "school": "Conroe High School",
-          "content": "Recap: Conroe defeats CFISD 72-65. <a href='https://example.com/conroe-game-blog'>Read full article</a>"
+          "url": "https://example.com/conroe-blog"
         },
         {
-          "title": "CFISD Weekly Update",
           "school": "CFISD",
-          "content": "Recap: CFISD football team dominates the week. <a href='https://example.com/cfisd-blog'>Read full article</a>"
-        }
-      ]
-    },
-    {
-      "title": "Notifications",
-      "paragraphs": ["Opt-in for school/district notifications"],
-      "collapsibles": [
-        {
-          "title": "Subscribe for Conroe HS",
-          "school": "Conroe High School",
-          "content": "<button onclick=\"subscribeNotification('Conroe High School')\">Subscribe</button>"
-        },
-        {
-          "title": "Subscribe for CFISD",
-          "school": "CFISD",
-          "content": "<button onclick=\"subscribeNotification('CFISD')\">Subscribe</button>"
+          "title": "CFISD Weekly Recap",
+          "url": "https://example.com/cfisd-blog"
         }
       ]
     }
