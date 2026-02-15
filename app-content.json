@@ -6,7 +6,11 @@
       "videos": [
         {
           "label": "Basketball Live",
-          "url": "https://www.youtube.com/embed/live_stream?channel=CHANNEL_ID"
+          "url": "https://www.youtube.com/embed/live_stream?channel=YOUR_CHANNEL_ID"
+        },
+        {
+          "label": "Football Live",
+          "url": "https://www.youtube.com/embed/live_stream?channel=YOUR_CHANNEL_ID_FOOTBALL"
         }
       ]
     },
@@ -14,8 +18,12 @@
       "title": "Archived Games",
       "videos": [
         {
-          "label": "Conroe vs CFISD",
-          "url": "https://www.youtube.com/embed/ARCHIVE_VIDEO_ID"
+          "label": "Conroe vs CFISD Basketball",
+          "url": "https://www.youtube.com/embed/ARCHIVE_VIDEO_ID_1"
+        },
+        {
+          "label": "Conroe vs CFISD Football",
+          "url": "https://www.youtube.com/embed/ARCHIVE_VIDEO_ID_2"
         }
       ]
     },
@@ -23,7 +31,7 @@
       "title": "Live Radio",
       "audios": [
         {
-          "label": "24/7 Radio",
+          "label": "24/7 Houston Sports Radio",
           "url": "https://yourstreamingurl.com/live.mp3"
         }
       ]
@@ -33,11 +41,15 @@
       "schools": [
         {
           "name": "Conroe High School",
-          "description": "Schedules, videos, blogs, notifications for Conroe HS"
+          "description": "Schedules, videos, blogs, and notifications for Conroe HS"
         },
         {
           "name": "CFISD",
-          "description": "Schedules, videos, blogs, notifications for CFISD"
+          "description": "Schedules, videos, blogs, and notifications for CFISD"
+        },
+        {
+          "name": "Rosehill Christian",
+          "description": "Schedules, videos, blogs, and notifications for Rosehill Christian"
         }
       ]
     },
@@ -46,13 +58,38 @@
       "blogs": [
         {
           "school": "Conroe High School",
-          "title": "Conroe HS Highlights",
-          "url": "https://example.com/conroe-blog"
+          "title": "Conroe HS Basketball Recap",
+          "url": "https://example.com/conroe-basketball-blog"
         },
         {
           "school": "CFISD",
-          "title": "CFISD Weekly Recap",
-          "url": "https://example.com/cfisd-blog"
+          "title": "CFISD Weekly Update",
+          "url": "https://example.com/cfisd-weekly-blog"
+        },
+        {
+          "school": "Rosehill Christian",
+          "title": "Rosehill Christian Highlights",
+          "url": "https://example.com/rosehill-blog"
+        }
+      ]
+    },
+    {
+      "title": "Notifications",
+      "subscriptions": [
+        {
+          "school": "Conroe High School",
+          "label": "Subscribe for Conroe HS Alerts",
+          "url": "https://yournewsletterlink.com/conroe"
+        },
+        {
+          "school": "CFISD",
+          "label": "Subscribe for CFISD Alerts",
+          "url": "https://yournewsletterlink.com/cfisd"
+        },
+        {
+          "school": "Rosehill Christian",
+          "label": "Subscribe for Rosehill Christian Alerts",
+          "url": "https://yournewsletterlink.com/rosehill"
         }
       ]
     }
